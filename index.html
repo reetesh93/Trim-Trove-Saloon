@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./img/logo.webp" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrimTrove |Saloon at your home</title>
+  <link rel="stylesheet" href="hair.css" />
+  <link rel="stylesheet" media="only screen and (max-width: 1350px)" href="phone.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div id="app">
+        <h4><a href="#getTheApp">TrimTrove</a></h4>
+      </div>
+      <input type="checkbox" id="menuShowMore" />
+      <label for="menuShowMore" class="menu">
+        <ion-icon name="menu" id="moremenu"></ion-icon>
+        <ion-icon name="close" id="closemenu"></ion-icon>
+      </label>
+      <ul class="nav-bar">
+        <button id="addBarberShop">Add Barber Shop</button>
+        <button id="loginButton">Log In</button>
+        <button id="signupButton">Sign Up</button>
+        <button id="logoutButton">Logout</button>
+      </ul>
+    </nav>
+    <div class="head">
+      <img class="logo" src="" />
+      <h3>Explore the best hair cut & facial in hyderabad</h3>
+      <div class="search">
+        <ion-icon name="location-outline"></ion-icon>
+        <p>Charminar Rd,Char Kaman,Ghansi Bazaar</p>
+        <ion-icon name="Search"></ion-icon>
+        <input type="text" placeholder="Search for hair shop or a hair style" />
+      </div>
+    </div>
+  </header>
+  <section class="sec-1">
+    <div class="box">
+      <img src="./img/cardimage1.jpg" />
+      <p>Hair Care</p>
+    </div>
+    <div class="box">
+      <img src="./img/cardImage2.jpg" />
+      <p>Skin Care</p>
+    </div>
+    <div class="box">
+      <img src="./img/cardImage3.jpg" />
+      <p>Body Care</p>
+    </div>
+    <div class="box">
+      <img src="./img/cardImage4.avif" />
+      <p>Groom Special</p>
+    </div>
+  </section>
+  <section class="middle">
+    <div class="sec-2">
+      <h2>Collections</h2>
+      <div>
+        <h6>
+          Discover lists of top barber,shops and massage point in
+          hyderabad,based on trends
+        </h6>
+        <span>All collections in hyderabad &nbsp;
+          <ion-icon name="arrow-forward-outline"></ion-icon></span>
+      </div>
+    </div>
+    <div class="sec-3">
+      <div class="box-1">
+        <div>
+          <span>Newly opened <br />
+            20 shops<ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+        <img src="./img/collectionsImage1.jpg" />
+      </div>
+      <div class="box-1">
+        <div>
+          <span>best in hyderabad <br />157 shops<ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+        <img src="./img/collectionsImage2.webp" />
+      </div>
+      <div class="box-1">
+        <div>
+          <span>trends style this week<br />25 style
+            <ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+        <img src="./img/collectionsImage3.webp" />
+      </div>
+      <div class="box-1">
+        <div>
+          <span>great shops<br />30 places<ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+        <img src="./img/collectionsImage4.jpg" />
+      </div>
+    </div>
+    <h1>
+      Popular places for best shops in and around <strong> hyderabad </strong>
+    </h1>
+    <div class="sec-4">
+      <div class="box-2">
+        <div>
+          <span>404,Yakutpura<ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+      <div class="box-2">
+        <div>
+          <span>56,Gowlipura east
+            <ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+      <div class="box-2">
+        <div>
+          <span>103,Hyderabad university
+            <ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+      <div class="box-2">
+        <div>
+          <span>205,Chowmahalla Palace<ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+      <div class="box-2">
+        <div>
+          <span>Mazher Complex<ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+      <div class="box-2">
+        <div>
+          <span>Bada Bazar Roundaout<ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+      <div class="box-2">
+        <div>
+          <span>IAON gallery<ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+      <div class="box-2">
+        <div>
+          <span>GHANSI BAZAR<ion-icon name="arrow-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec-5" id="getTheApp">
+    <div class="flex contact">
+      <img src="./img/contactModel.webp" />
+      <div class="address">
+        <h2>Get The TrimTrove App</h2>
+        <p>
+          we will send you a link,open it on your phone to download the app
+        </p>
+        <div class="flex radio">
+          <div>
+            <input type="radio" name="fill" id="email" checked />
+            <label for="email">Email</label>
+          </div>
+          <div>
+            <input type="radio" name="fill" id="phone" />
+            <label for="phone">phone</label>
+          </div>
+        </div>
+        <form id="contactEmail" class="flex email active">
+          <input class="input" type="email" id="emailId" placeholder="example@email.com" />
+          <input type="submit" value="Submit" />
+        </form>
+        <form id="contactPhone" class="flex phone">
+          <input class="input" type="tele" id="contactNumber" placeholder="+91 1234567890" />
+          <input type="submit" value="Submit" />
+        </form>
+        <div class="downloadTab">
+          <p class="Download">Download App from</p>
+          <div class="flex app">
+            <img src="./img/appStore.png" id="appStore"/>
+            <img src="./img/playStore.webp" id="playStore"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="modals">
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeLogin">&times;</span>
+        <h2>Log In</h2>
+        <form id="loginForm">
+          <input type="text" id="login-username" placeholder="Username" />
+          <input type="password" id="login-password" placeholder="Password" />
+          <button type="submit">Log In</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Sign Up Modal -->
+    <div id="signupModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeSignup">&times;</span>
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+          <input type="text" id="signup-name" placeholder="Name" />
+          <input type="text" id="signup-username" placeholder="Username" />
+          <input type="password" id="signup-password" placeholder="Password" />
+          <input type="password" id="signup-confirm-password" placeholder="Confirm Password" />
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- notification container -->
+  <div id="notification-container" class="notification-container"></div>
+
+  <script src="./script.js"></script>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/ionicons/ionicons.js"></script>
+
+</html>
